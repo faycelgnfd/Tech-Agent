@@ -16,11 +16,11 @@ public class TurkishAirlinesAnnexe {
 	{
 		this.turkishAirlines = new Compagnie("Turkish Airlines");
 		Boolean b=false;
-		Vol v = new Vol("istanbul","Charleroi",new Date(11,11,2021),new Date (11,11,2021),b,30,500,30);
+		Vol v = new Vol("istanbul","Charleroi",new Date(9,9,2021),new Date (10,9,2021),b,30,500,30);
 		this.turkishAirlines.ajouterVol(v);
 		Vol v2 = new Vol("Ankara","Londre",new Date(6,5,2021),new Date (6,5,2021),b,30,500,30);
 		this.turkishAirlines.ajouterVol(v2);
-		Vol v3 = new Vol("Cambridge","Milan",new Date(2,8,2021),new Date (2,8,2021),!b,30,500,30);
+		Vol v3 = new Vol("Cambridge","Milan",new Date(12,8,2021),new Date (12,8,2021),!b,30,500,30);
 		this.turkishAirlines.ajouterVol(v3);
 		Vol v4 = new Vol("Venice","Brussels",new Date(13,9,2021),new Date (14,9,2021),b,30,500,30);
 		this.turkishAirlines.ajouterVol(v4);

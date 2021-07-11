@@ -16,11 +16,11 @@ public class AirFranceAnnexe {
 	{
 		this.airFrance = new Compagnie("Air France");
 		Boolean b=false;
-		Vol v = new Vol("Paris","Toronto",new Date(11,11,2021),new Date (11,11,2021),b,30,500,30);
+		Vol v = new Vol("Paris","Toronto",new Date(1,12,2021),new Date (1,12,2021),b,30,500,30);
 		this.airFrance.ajouterVol(v);
 		Vol v2 = new Vol("Vancouver","Londre",new Date(6,5,2021),new Date (6,5,2021),b,30,500,30);
 		this.airFrance.ajouterVol(v2);
-		Vol v3 = new Vol("Charleroi","Cambridge",new Date(2,8,2021),new Date (2,8,2021),!b,30,500,30);
+		Vol v3 = new Vol("Charleroi","Cambridge",new Date(22,9,2021),new Date (23,9,2021),!b,30,500,30);
 		this.airFrance.ajouterVol(v3);
 		Vol v4 = new Vol("Nancy","Brussels",new Date(13,9,2021),new Date (14,9,2021),b,30,500,30);
 		this.airFrance.ajouterVol(v4);
